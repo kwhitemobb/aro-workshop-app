@@ -30,7 +30,7 @@ spec:
         - name: dockerfile-path
           value: src/main/docker/Dockerfile.jvm
         - name: image-name
-          value: ACR_ENDPOINT.azurecr.io/minesweeper
+          value: mobbws3dbb8a21.azurecr.io/minesweeper
       workspaces:
         - name: source
           persistentVolumeClaim:
